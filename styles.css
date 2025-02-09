@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #ddd;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.timeline-item {
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+}
+
+.timeline-item.left {
+    left: 0;
+}
+
+.timeline-item.right {
+    left: 50%;
+}
+
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #3498db;
+    top: 30px;
+    border: 3px solid white;
+}
+
+.timeline-item.left::after {
+    left: -16px;
+}
+
+.timeline-item.right::after {
+    right: -16px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
