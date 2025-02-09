@@ -56,3 +56,36 @@ body {
     max-width: 100%;
     height: auto;
 }
+.bg-pink {
+    background-color: #ff69b4;
+}
+
+.bg-dark {
+    background-color: #333;
+}
+
+.bg-gray {
+    background-color: #ccc;
+}
+
+.skill-icon {
+    width: 100px;
+    height: auto;
+}
+
+.profile-card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-icon {
+    width: 50px;
+    height: auto;
+}
+
+.social-icon {
+    color: white;
+    margin-left: 10px;
+    font-size: 24px;
+}
