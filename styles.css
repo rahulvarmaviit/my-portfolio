@@ -89,3 +89,204 @@ body {
     margin-left: 10px;
     font-size: 24px;
 }
+/* Full-page gradient background */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ffffff, #ffffff, #d99946, #f1b640);
+    background-size: 400% 400%;
+    animation: gradientBackground 10s ease infinite;
+    padding-top:50px; /* Adjust this value based on the height of your navbar */
+}
+
+/* Animation for the gradient background */
+@keyframes gradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+/* Gradient background for the navigation bar */
+/* Fixed Navigation Bar */
+.navbar {
+    position:fixed;
+    top:0;
+    width: 100%;
+    z-index: 1000; /* Ensures the navbar stays on top of other elements */
+    background: linear-gradient(90deg, #0a0a0a, #232120);
+    color: white;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+/* Custom styles for the download button */
+.btn-download {
+    background: linear-gradient(90deg, #1484e6, #1484e6);
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-download:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+/* Profile Image Styling */
+.profile-image {
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    object-fit:fill; /* Ensures the image fits perfectly within the circle */
+    border: 5px solid #fff; /* Adds a white border around the image */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+
+/* Download Button Styling */
+.btn-primary {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px; /* Makes the button pill-shaped */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.1); /* Slightly enlarges the button on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Adds a hover effect */
+}
+/* Footer Icon and Text Styling */
+footer p {
+    margin: 0; /* Removes default margin */
+    line-height: 1.5; /* Ensures consistent spacing */
+}
+
+footer i {
+    margin-right: 5px; /* Adds a small gap between the icon and text */
+}
+/* Timeline Styling */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #ddd;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+}
+
+.timeline-item {
+    position: relative;
+    width: 45%;
+    padding: 20px 40px;
+    border-radius: 6px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item.left {
+    left: 0;
+    margin-right: 100px;
+}
+
+.timeline-item.right {
+    right: 0;
+    margin-left: 100px;
+}
+
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #3498db;
+    top: 30px;
+    z-index: 1;
+}
+
+.timeline-item.left::after {
+    left: 100%;
+    margin-left: -10px;
+}
+
+.timeline-item.right::after {
+    right: 100%;
+    margin-right: -10px;
+}
+
+.year {
+    display: block;
+    font-size: 18px;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.timeline-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.timeline-item p {
+    font-size: 14px;
+    color: #777;
+}
+/* Social Icons Styling */
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: white;
+    background-color: #333;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #555; /* Change this to the desired color */
+    color: rgb(218, 143, 13); /* Ensure the icon color remains white */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adds a shadow effect */
+    transform: scale(1.1); /* Slightly enlarges the icon on hover */
+}
+
+/* Contact Button Styling */
+.btn-primary {
+    background: linear-gradient(90deg, #1a1919, #070707);
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 30px; /* Makes the button pill-shaped */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.1); /* Slightly enlarges the button on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Adds a hover effect */
+}
+.navbar {
+    transition: transform 0.3s ease;
+}
