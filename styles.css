@@ -290,3 +290,112 @@ footer i {
 .navbar {
     transition: transform 0.3s ease;
 }
+/* Custom styles for project cards */
+/* Custom styles for project images */
+.project-image {
+    width: 100%; /* Ensures the image takes up the full width of its container */
+    height: 200px; /* Set a consistent height for all images */
+    object-fit: cover; /* Ensures the image covers the entire area while maintaining aspect ratio */
+    border-radius: 15px; /* Optional: Adds rounded corners to the image */
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #777;
+}
+/* Skills Section */
+.bg-pink {
+    background-color: #4488f5;
+}
+
+.skill-icon {
+    width: 100px;
+    height: auto;
+}
+
+/* Profiles Section */
+.bg-dark {
+    background-color: #333;
+    color: white;
+}
+
+.profile-card {
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #d99946, #f1b640);
+}
+
+.profile-icon {
+    width: 50px;
+    height: auto;
+}
+.profile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icon {
+    color: white;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+/* Skills Section */
+.bg-pink {
+    background-color: #007bff; /* Change to desired color */
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px;
+}
+
+.skill-icon {
+    width: 80px;
+    height: auto;
+    margin-bottom: 1px;
+}
+
+/* Profiles Section */
+.bg-dark {
+    background-color: #333;
+    color: white;
+}
+
+.profile-card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #007bff, #007bff);
+    margin: 20px;
+}
+
+.profile-content {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.profile-icon {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
