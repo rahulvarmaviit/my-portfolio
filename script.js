@@ -21,3 +21,16 @@ document.addEventListener("DOMContentLoaded", function() {
         lastScrollPosition = currentScrollPosition;
     });
 });
+document.getElementById('contactForm').addEventListener('submit', function (e) {
+    e.preventDefault(); // Prevent default form submission
+
+    // Simulate form submission
+    const form = e.target;
+    const formData = new FormData(form);
+
+    // Display success message
+    alert('Thank you for contacting me! I will get back to you soon.');
+
+    // Reset the form
+    form.reset();
+});
