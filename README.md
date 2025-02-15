@@ -1,6 +1,6 @@
 # 🚀 Rahul Varma's Portfolio Website
 
-![Portfolio Preview](![image](https://github.com/user-attachments/assets/387e76a0-deaa-41c5-9755-9ae840d72c59)
+![Portfolio Preview](./assests/Screenshot 2025-02-15 211806.png)
 )  
 
 ## 🌟 About the Project
