@@ -1,6 +1,6 @@
 # 🚀 Rahul Varma's Portfolio Website
 
-![Portfolio Preview](./assests/Screenshot2025-02-15211806.png)
+![Portfolio Preview](./assests/screenshot.png)
 
 ## 🌟 About the Project
 Welcome to my dynamic portfolio website showcasing my journey as a Computer Science Engineering Student and Full Stack Developer. This responsive platform highlights my technical skills, projects, education timeline, and professional interests.
