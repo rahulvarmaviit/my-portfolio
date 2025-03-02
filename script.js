@@ -34,3 +34,16 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
     // Reset the form
     form.reset();
 });
+// Toggle "Show More Projects" button text
+document.addEventListener("DOMContentLoaded", function() {
+    const toggleButton = document.getElementById('toggleProjects');
+    const moreProjects = document.getElementById('moreProjects');
+
+    moreProjects.addEventListener('show.bs.collapse', function() {
+        toggleButton.textContent = 'Hide Projects';
+    });
+
+    moreProjects.addEventListener('hide.bs.collapse', function() {
+        toggleButton.textContent = 'Show More Projects';
+    });
+});

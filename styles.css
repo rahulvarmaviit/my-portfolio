@@ -681,3 +681,39 @@ textarea {
     width: device-width;
     zoom: 1.0;
 }
+/* Charity Section */
+.bg-charity {
+    background: linear-gradient(135deg, #18a44b, #076f18);
+    color: white;
+}
+
+.qr-code {
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-charity {
+    background: linear-gradient(90deg, #1484e6, #1484e6);
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.qr-code {
+    max-width: 300px;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.timeline-item.right::after {
+    right: -16px; /* Fixed typo in class name */
+}
+
+.btn-charity:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
