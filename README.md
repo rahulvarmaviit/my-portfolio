@@ -86,7 +86,7 @@ Distributed under MIT License
 📬 Connect With Me
 📧 Email: rahulvarmaviit@gmail.com
 
-💼 LinkedIn: Rahul Varma Vatsavai
+💼 LinkedIn: http://www.linkedin.com/in/rahul-varma-vatsavai-62a051290
 
 👨💻 GitHub: @rahulvarmaviit
 
