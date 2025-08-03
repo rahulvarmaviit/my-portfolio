@@ -74,7 +74,7 @@ Follow deployment prompts
 🤝 Contributions
 While this is a personal portfolio, feel free to:
 
-⚡ Fork for your own use
+⚡ Fork for your own
 
 🐛 Report issues via GitHub Issues
 
